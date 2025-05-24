@@ -1,0 +1,53 @@
+.all-project-setup {
+  background: radial-gradient(circle, rgb(7, 26, 63) 0%, rgb(6, 2, 41) 100%);
+}
+.see-project {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 30px;
+  gap: 2rem;
+}
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.project-content {
+  position: relative;
+}
+.project-card-details {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.project-card-details a {
+  width: 100px;
+  background-color: rgb(68, 68, 173);
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 500;
+  display: none;
+}
+.project-card-details a:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.project-content:hover .project-card-details a {
+  display: block;
+}

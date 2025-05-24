@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.navbar-left {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.navbar-right ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  cursor: pointer;
+}
+.navbar-right ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.navbar-right ul li a:hover {
+  color: #fcd34d;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 600px) {
+  .navbar-left {
+    font-size: 1.5rem;
+  }
+  .navbar-right ul {
+    gap: 2rem;
+  }
+}

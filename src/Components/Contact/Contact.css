@@ -1,0 +1,33 @@
+.bg-add-color {
+  background: radial-gradient(circle, rgb(7, 26, 63) 0%, rgb(6, 2, 41) 100%);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.contact-container {
+  padding-top: 100px;
+}
+.contact-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+.contact-section-description {
+  margin-bottom: 100px;
+}
+.contact-section-description a {
+  color: white;
+  font-size: 30px;
+}
+.contact-section-description a:hover {
+  color: #f0a500;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-right {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
