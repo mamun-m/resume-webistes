@@ -7,6 +7,7 @@ import ts from "./ts.png";
 import sass from "./sass.png";
 import git from "./git.png";
 import bootstrap from "./bootstrap.png";
+import MAMUN from "./resume.jpg";
 
 import web1 from "./moviewebsite.png";
 import web2 from "./personal-websites.png";
@@ -107,3 +108,7 @@ export const assets__card = [
     img: web8
   }
 ];
+
+export const Home__img = {
+  homeImg: MAMUN
+};

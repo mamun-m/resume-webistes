@@ -1,8 +1,8 @@
 import "./Hero.css";
-import img from "../../assets/photos.jpg";
 import Button from "../../Temp/Button";
 import { Link } from "react-scroll";
 import TypingEffect from "../../Temp/TypingEffect";
+import { Home__img } from "../../assets/Assets";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src={img} alt="" />
+        <img src={Home__img.homeImg} alt="" />
       </div>
     </div>
   );
